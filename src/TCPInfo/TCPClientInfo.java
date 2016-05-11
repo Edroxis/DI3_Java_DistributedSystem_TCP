@@ -4,7 +4,6 @@ import java.io.IOException;
 
 public class TCPClientInfo extends TCPClientBuilder implements Runnable {
 
-	@Override
 	public void run() {
 		try {
 			setSocket();
